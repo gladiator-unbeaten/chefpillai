@@ -1,0 +1,1360 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Droid Serif';
+  margin: 0px;
+  padding: 0px;
+  background-color: #232323;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 200;
+}
+h2 {
+  font-size: 30px;
+}
+h1, h2, h3 {
+  font-family: 'HP Simplified';
+/*  font-weight: 100;*/
+}
+h3, h4, h5 {
+  color: #355e3b;
+}
+h5 {
+  font-family: 'Montserrat-bold', sans-serif;
+  color: #666666;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Didact Gothic', sans-serif;
+}
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+.logo {
+  margin: 21px auto;
+  width: 110px;
+  height: 110px;
+}
+/*Index with header menu*/
+.dropdown-menu {
+  background-color: black;
+  margin-top: -1px;
+  border-radius: 0px;
+}
+.dropdown-item {
+  line-height: 2;
+}
+.navbar-nav .nav-item:hover .nav-link {
+  background-color: black;
+  border-radius: 0px;
+}
+.header-text {
+  color: #ffeda1;
+  font-family: 'Droid Serif';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.header-text:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(246, 246, 246, 0.3);
+}
+/*Index with video contain menu*/
+.header-textv {
+  color: #ffffff;
+  font-family: 'Droid Serif';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.header-textv:hover {
+  color: #ffeda1;
+  text-decoration: none;
+	background-color: transparent;
+}
+.dropdown:hover {
+  color: #ffeda1;
+  text-decoration: none;
+  background-color: black;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0px;
+}
+/* Containers */
+.navcontainer {
+  align: center;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  height: 150px;
+  /*  overflow: hidden;*/
+  z-index: 998;
+}
+
+.container-footer {
+  align: center;
+}
+.colored-section2 {
+  background-color: #E6E6E6;
+  color: #000;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+}
+.colored-section {
+  background-color: #e6e6e6;
+  color: #fff;
+}
+.menu-text {
+  color: #000;
+  font-size: 1.5rem;
+}
+.text-special {
+  letter-spacing: 3px;
+  line-height: 3;
+  font-size: 3rem;
+}
+/* Navigation Bar */
+.nav-item {
+  align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav-Link {
+  font-size: 1.2rem;
+}
+.d-blocknew {
+  display: none;
+}
+.w-100new {
+  width: auto;
+  display: inline-block;
+}
+/* Buttons */
+.icon {
+  color: #4c8503!important;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #faaf3b!important;
+}
+.tk {
+  color: #242323;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.card {
+  border: none;
+}
+.card-header {
+  background-color: #E6E6E6;
+  border: none;
+}
+.card-body {
+  background-color: #E6E6E6;
+}
+.new {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: #242323;
+}
+.red {
+  width: 70%;
+  height: 150px;
+  background-color: red;
+  display: inline;
+  position: absolute;
+  left: 600px;
+}
+.top-container {
+  width: 100%;
+  height: 100px;
+}
+#links a {
+  display: none;
+}
+.social-link {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+  	font-weight: 400;
+  	font-family: 'Didact Gothic', sans-serif;
+	color: #fff;
+	background-color: #006BF7;
+	border-radius: 10px;
+}
+.social-link:hover {
+  color: #000;
+  text-decoration: none;
+	background-color: aquamarine;
+	border-radius: 10px;
+}
+.footer_class {
+  padding: inherit;
+  line-height: normal;
+  text-align: center;
+}
+.rkzoom {
+  overflow: hidden;
+}
+.rkzoom img {
+  width: 100%;
+  transition: 0.7s all ease-in-out;
+}
+.rkzoom:hover img {
+  transform: scale(1.06);
+}
+
+.innerheading {
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #C48F56;
+}
+.innertext {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 7px;
+  text-align: justify;
+  text-align-last: left;
+  color: #36454F;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.writeup {
+  background-color: #E5E4E2;
+/*  white-space: pre-line;*/
+}
+.innerimg {
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  width: 450px;
+  height: auto;
+}
+.loyaltyimg {
+  margin-top: 20px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+  padding-right: 0px;
+  width: 350px;
+  height: 220px;
+}
+.innerimgmain {
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  }
+.discovery {
+  background-color: #E6E6E6;
+}
+.pxtra {
+  padding-bottom: 30px;
+}
+.main_head {
+  color: #ffffff;
+  font-family: HP Simplified;
+  text-align: left;
+  text-shadow: 1px 1px #000000;
+}
+.brush_head {
+  color: #ffffff;
+/*  text-shadow: 1px 1px #000000;*/
+  font-family: 'Mulish', sans-serif;
+  padding-top: 20px;
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 100px;
+  font-size: 5rem;
+}
+.video-container {
+  /*  min-height: 100%;*/
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 997;
+}
+.video-container video {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+/* video container styling contents */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: left;
+  color: #dc0000;
+  padding: 0px;
+}
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 3s;
+  animation-name: animatebottom;
+  animation-duration: 3s
+}
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -400px;
+    opacity: 0
+  }
+  to {
+    bottom: 0px;
+    opacity: 1
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -400px;
+    opacity: 0
+  }
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+#myDiv {
+  
+}
+/* Add animation to "page content" */
+.animate-top {
+  position: relative;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 3s;
+  animation-name: animatetop;
+  animation-duration: 3s
+}
+@-webkit-keyframes animatetop {
+  from {
+    top: -800px;
+    opacity: 0
+  }
+  to {
+    top: 0px;
+    opacity: 1
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -800px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+/*Scrolling words container*/
+.scrolling-words-box {
+  height: 3rem;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+.scrolling-words-box ul {
+  margin: 0 0.625rem;
+  padding: 0;
+  animation: scrollUp 6s infinite;
+}
+.scrolling-words-box ul li {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  height: 3rem;
+  list-style: none;
+}
+@keyframes scrollUp {
+  15%, 25% {
+    transform: translateY(-20%);
+  }
+  40%, 50% {
+    transform: translateY(-40%);
+  }
+  65%, 75% {
+    transform: translateY(-60%);
+  }
+  90%, 100% {
+    transform: translateY(-80%);
+  }
+}
+#loader {
+  padding: 0px;
+  width: 150px;
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+	align-items: center;
+}
+#loader-child {
+  float: left;
+  display: inline-block;
+  height: 30px;
+  position: absolute;
+  width: 170px;
+  top: 110px;
+}
+.imgrze {
+  padding-bottom: 70px;
+  padding-left: 30px;
+}
+.floated {
+  float: right;
+  width: 300px;
+  height: auto;
+  padding-right: 30px;
+}
+.conflu {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out .7s;
+}
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.video-fluid video {
+  width: 400px;
+  height: 400px;
+}
+/*New Styles applied*/
+.innerheading1, h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  color: #C48F56;
+}
+.innertext1 {
+  padding-top: 20px;
+	padding-left: 30px;
+  padding-right: 20px;
+  text-align: justify;
+/*  text-align-last: left;*/
+/*  color: #708090;*/
+}
+#menuitems p {
+  padding-top: 15px;
+  text-align: justify;
+  text-align-last: left;
+  color: #708090;
+}
+.rightimg {
+  display: flex;
+  justify-content: center;
+}
+.stylextra {
+  margin-right: 950px;
+}
+.navcontainer2 {
+  align: center;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  height: 550px;
+  overflow: hidden;
+  background-image: url("../Images/resto1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.brush_head1 {
+  color: #ffffff;
+/*  text-shadow: 1px 1px #000000;*/
+  font-family: 'Mulish', sans-serif;
+  padding-top: 0px;
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 0px;
+  font-size: 3rem;
+}
+.navcontainer3 {
+  align: center;
+  margin: 0px;
+  padding-top: 0px;
+ padding-right: 3px;
+  height: 350px;
+	width: 100%;
+/*  overflow: hidden;*/
+  background-position: center;
+  background-size: cover;
+	position: relative;
+	z-index: 998;
+}
+.button {
+  color: #ffeda1;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  outline: hidden;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  outline: hidden;
+  text-decoration: none;
+}
+.buttonsub {
+  background-color: #033500;
+  color: white;
+  padding: 7% 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  outline: hidden;
+  border: 1px;
+}
+.buttonsub:hover {
+  background-color: #708090;
+  color: white;
+  outline: hidden;
+  text-decoration: none;
+}
+.submenu {
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 20px;
+  padding-top: 10px;
+  position: relative;
+/*  z-index: -995;*/
+}
+.stroke {
+  -webkit-text-stroke-width: 1px;
+/*  -webkit-text-stroke-color: black;*/
+}
+.tabset {
+  margin-left: 40px;
+}
+.carousel .item {
+  height: 300px;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+.bottom {
+  background-color: #36454F;
+  color: #B2BEB5;
+  font-family: 'Didact Gothic';
+		bottom: 0;
+}
+.h3 {
+  display: none;
+}
+.carouseltext {
+  color: #000;
+  padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 20px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: .9s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+#navbar_top {
+  z-index: 9999;
+}
+#writeup {
+  z-index: 996;
+}
+#restspecial {
+  z-index: 996;
+	background-color: #eaf8e1;
+}
+.socialbg {
+  background-color: #fff;
+  white-space: pre-line;
+}
+.feature-box {
+  padding: 5%;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.white-section {
+  background-color: #fff;
+}
+#participate {
+  position: relative;
+  text-align: center;
+}
+.knight {
+  padding: 1% 15%;
+  text-align: center;
+}
+.bulletext {
+  padding-top: 15px;
+  padding-left: 60px;
+  padding-right: 40px;
+  text-align: left;
+  color: #708090;
+}
+.submenu_link {
+	
+  color: #ffeda1;
+  font-family: 'Droid Serif';
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.submenu_link:hover {
+  color: #34a853;
+  text-decoration: none;
+}
+.submenuDiv {
+	width:100%;
+    height:50px;
+    margin: 0 auto;
+	background: rgba(0, 0, 0, .5); 
+	bottom: 0;
+	overflow: hidden;
+}
+
+.wrapper {
+	padding: 0px; 
+	position: absolute; 
+	width: 100%;
+}
+
+#wrapper {
+	z-index: 997;
+}
+
+.specialHead {
+	color: #fff;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #dec9ce;
+}
+
+#chefdiscovery {
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+.left-top {
+	position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.left-bottom {
+	position: absolute;
+  bottom: 8px;
+  left: 16px;
+	color: #000;
+}
+
+.col-container {
+	display: table;
+  width: 100%;
+}
+
+#givingback {
+	text-align: center;
+	background-color: #E5E4E2;
+	position: relative;
+	}
+
+.target {
+	width:auto;
+    height:200px;
+/*
+    border:solid white 1px;
+	border-radius: 20px;
+*/
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	text-align: center;
+	color: #fff;
+}
+.target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
+
+
+.highlight {
+  	background-color: #033500;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+  }
+  
+
+.spacing {
+	padding-right: 40px;
+}
+
+.fa-solid {
+	color:#000;
+	opacity: 50%;
+}
+
+.radius {
+	width: 70%;
+	border-radius: 10px;
+}
+
+.nav-tabs {
+	background-color: #c8d3e8;
+}
+.nav-tabs .nav-item .nav-link {
+  background-color: #5a63a0;
+  color: #FFF;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: #e5e5e5;
+	border: none;
+ color: #033500;
+}
+
+.tab-content {
+  border: 1px solid #dee2e6;
+  border-top: transparent;
+  padding: 5px;
+}
+
+.tab-content .tab-pane {
+  background-color: #FFF;
+  color: #333333;
+	font-size: 18px;
+  	font-weight: 400;
+  	font-family: 'Didact Gothic', sans-serif;
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+  min-height: 150px;
+  height: auto;
+}
+
+.extrapaddings {
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.carousel-indicators > .active {
+    background-color: #355e3b;
+	opacity: 40%;
+}
+
+.fa-3x {
+	color: #C48F56;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%;
+}
+#carouselGuest {
+	background-color: #efe2d2;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.carouselGuest img{
+	height: auto !important;
+}
+.carouselGuest1 {
+	background-color: #efe2d2;
+}
+
+.py-2 {
+	background-color: #efe2d2;
+}
+.imgradius {
+	border-radius: 10px!important;
+	magin-top: 10px!important;
+	margin-bottom: 10px;
+	}
+.chefdiscoveryhome {
+	background-color: rgba(51, 51, 51, 0.4);
+	z-index: 1; 
+	position: absolute;
+	bottom: 0; 
+	margin: 0px;
+	}
+
+.givingbackhome {
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 1; 
+	position: absolute; 
+	bottom: 0; 
+	margin: 0px;
+	}
+.resto_text {
+	margin: 60px 20px 10px 20px;
+	text-align: justify;
+	}
+
+.resto_img {
+	margin-top: 60px; 
+	border-radius: 10px; 
+	margin-bottom: 20px;
+/*	text-align: center;*/
+}
+
+.achievments {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.2em;
+	border-radius: 5px;
+	background-color: #fff;
+/*		rgba(196, 143, 86, 0.4);*/
+	color: #C48F56;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 5px;
+}
+.achievments:hover {
+	background-color: #DFD9D9;
+	}
+.justify-content-between {
+	padding: 0px;
+}
+
+.col-auto {
+	padding: 0px;
+	margin: 0px;
+}
+
+.align-items-center {
+	vertical-align: middle;
+}
+
+#links {
+	z-index: 999;
+}
+
+#rcpMission {
+	min-height: 650px;
+}
+
+.achievments_inner_page {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.2em;
+	border-radius: 5px;
+	background-color: #909090;
+/*		rgba(196, 143, 86, 0.4);*/
+	color: white;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.achievments_inner_page:hover {
+	background-color: #A49D9D;
+}
+
+.formtext {
+	text-align: left;
+	padding-left: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+	padding-bottom: 20px;
+	tab-size: 4;
+}
+
+.login {
+	background-color: #033500;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	border-radius: 3px;
+  	outline: hidden;
+  	border: 1px;
+	padding: 5px 15px;
+}
+
+.required {
+	color: red;
+}
+.form-group {
+	padding-left: 30px;
+}
+
+.login:hover {
+	background-color: #A49D9D;
+}
+
+#guestEx {
+	max-height: 450px!important;
+	overflow: hidden;
+}
+.section-text {
+	padding-left: 10px;
+	text-align: justify;
+}
+
+.section-heading {
+	margin-top: 10px; 
+	padding-left: 10px; 
+	text-transform: uppercase; 
+	color: #C48F56;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+/*Media queries for background changes styles*/
+@media screen and (max-width: 767px) {
+.navcontainer3 {
+    height: 350px;
+  }
+.header-textv {
+  color: #C48F56;
+}
+.dropdown .header-textv:hover {
+  color: #fff;
+}
+.innerimgmain {
+   float: left;
+	width: 300px!important;
+	height: auto!important;
+    }
+.carousel-caption {
+	padding: 0px;
+	margin: 60px;
+	top: 0%;
+}
+	.fa-3x {
+		font-size: 20px;
+	}
+	.achievments {
+		font-size: 1em;
+	}
+.resto_text {
+	margin: 10px 20px 10px 20px;
+	text-align: justify;
+	}
+#guestE {
+    vertical-align: middle;
+	background-color: #efe2d2;
+	}
+#careers_main {
+    background-image: url(../images/careers_main_mob.png);
+  }
+#restaurant_main {
+    background-image: url(../images/restaurant_main_mob.png);
+  }
+#menu_main {
+    background-image: url(../images/menu_main_mob.png);
+  }
+#restaurant_special_main {
+    background-image: url(../images/restaurant_special_main_mob.png);
+  }
+#rcp_main {
+    background-image: url(../images/rcp_main_mob.png);
+	background-position: right;
+  }
+#giving_back_main {
+    background-image: url(../images/giving_back_main_mob.png);
+  }
+#chef_pillai_main {
+    background-image: url(../images/chef_pillai_main_mob.png);
+	background-position: right;
+  }
+#guest_experience_main {
+    background-image: url(../images/guest_experience_main_mob.png);
+  }
+#loyalty_programs_main {
+    background-image: url(../images/loyalty_programs_main_mob.png);
+  }
+#benefits_main {
+    background-image: url(../images/benefits_main_mob.png);
+  }
+#events_main {
+    background-image: url(../images/events_main_mob.png);
+  }
+#events_booking_main {
+    background-image: url(../images/events_booking_main_mob.png);
+  }
+#contact_main {
+    background-image: url(../images/contact_main_mob.png);
+	}
+#registered_user_main {
+    background-image: url(../images/registered_user_main_mob.png);
+	background-position: right;
+	}
+#register_main {
+    background-image: url(../images/register_main_mob.png);
+	}
+#contactform_main {
+    background-image: url(../images/contact_form_main_mob.png);
+	}
+#chef_discovery_main {
+    background-image: url(../images/chefpillai_discovery_main_mob.jpg);
+	}
+#chef_media_main {
+    background-image: url(../images/social_media_main_mob.png);
+	}
+	
+}
+@media screen and (min-width: 768px) {
+  .navcontainer3 {
+    height: 350px;
+  }
+.innerimgmain {
+	float: left;
+   width: 300px!important;
+	height: auto!important;
+    }
+.h3 {
+	display: flex;
+	width: 25px;
+    height: auto;
+	}
+.carousel-caption {
+	padding: 0px;
+	margin: 0px;
+	top: 65%;
+transform: translateY(-50%);
+}
+.fa-3x {
+		font-size: 20px;
+	}
+
+	
+#guestE {
+    height: 200px;
+	background-color: #efe2d2;
+    }
+  #careers_main {
+    background-image: url(../images/careers_main_mob.png);
+  }
+	#restaurant_main {
+    background-image: url(../images/restaurant_main_mob.png);
+  }
+#menu_main {
+    background-image: url(../images/menu_main_mob.png);
+  }
+#restaurant_special_main {
+    background-image: url(../images/restaurant_special_main_mob.png);
+  }
+#rcp_main {
+    background-image: url(../images/rcp_main_mob.png);
+	background-position: right;
+  }
+#giving_back_main {
+    background-image: url(../images/giving_back_main_mob.png);
+  }
+#chef_pillai_main {
+    background-image: url(../images/chef_pillai_main_mob.png);
+	background-position: right;
+  }
+#guest_experience_main {
+    background-image: url(../images/guest_experience_main_mob.png);
+  }
+#loyalty_programs_main {
+    background-image: url(../images/loyalty_programs_main_mob.png);
+  }
+#benefits_main {
+    background-image: url(../images/benefits_main_mob.png);
+  }
+#events_main {
+    background-image: url(../images/events_main_mob.png);
+  }
+#events_booking_main {
+    background-image: url(../images/events_booking_main_mob.png);
+  }
+#contact_main {
+    background-image: url(../images/contact_main_mob.png);
+  }
+#registered_user_main {
+    background-image: url(../images/registered_user_main_mob.png);
+	background-position: right;
+	}
+#register_main {
+    background-image: url(../images/register_main_mob.png);
+	}
+#contactform_main {
+    background-image: url(../images/contact_form_main_mob.png);
+	}
+#chef_discovery_main {
+    background-image: url(../images/chefpillai_discovery_main_mob.jpg);
+	}
+#chef_media_main {
+    background-image: url(../images/social_media_main_mob.png);
+	}
+
+}
+@media (min-width: 992px) {
+	.navcontainer3 {
+  		height: 350px;
+  	}
+.brush_head1 {
+	font-size: 4rem;
+    margin-top: 100px;
+  }
+.innerimgmain {
+   width: 350px!important;
+	height: 60%!important;
+    }
+	.carouseltext {
+		font-size: 1.5em;
+	}
+.resto_text {
+	padding: 60px 40px 0px 30px;
+}
+.resto_img {
+	margin-top: 70px; 
+	border-radius: 10px; 
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+	.fa-3x {
+		font-size: 34px;
+	}
+  #careers_main {
+    background-image: url(../images/careers_main_tab.png);
+  }
+	#restaurant_main {
+    background-image: url(../images/restaurant_main_tab.png);
+  }
+	#menu_main {
+    background-image: url(../images/menu_main_tab.png);
+  }
+	#restaurant_special_main {
+    background-image: url(../images/restaurant_special_main_tab.png);
+  }
+	#rcp_main {
+    background-image: url(../images/rcp_main_tab.png);
+  }
+	#giving_back_main {
+    background-image: url(../images/giving_back_main_tab.png);
+  }
+	#chef_pillai_main {
+    background-image: url(../images/chef_pillai_main_tab.png);
+  }
+	#guest_experience_main {
+    background-image: url(../images/guest_experience_main_tab.png);
+  }
+	#loyalty_programs_main {
+    background-image: url(../images/loyalty_programs_main_tab.png);
+  }
+	#benefits_main {
+    background-image: url(../images/benefits_main_tab.png);
+  }
+	#events_main {
+    background-image: url(../images/events_main_tab.png);
+  }
+	#events_booking_main {
+    background-image: url(../images/events_booking_main_tab.png);
+  }
+	#contact_main {
+    background-image: url(../images/contact_main_tab.png);
+  }
+	#registered_user_main {
+    background-image: url(../images/registered_user_main_tab.png);
+	}
+	#register_main {
+    background-image: url(../images/register_main_tab.png);
+	}
+	#contactform_main {
+    background-image: url(../images/contact_form_main_tab.png);
+	}
+	#chef_discovery_main {
+    background-image: url(../images/chefpillai_discovery_main_tab.jpg);
+	}
+	#chef_media_main {
+    background-image: url(../images/social_media_main_tab.png);
+	}
+}
+@media (min-width: 1024px) {
+  video {
+    width: 100% !important;
+    height: 100% !important;
+  }
+.navcontainer3 {
+  height: 350px;
+  	}
+   .brush_head {
+    padding-top: 0px;
+    text-align: right;
+    margin-top: 80px;
+    font-size: 5rem;
+  }
+  .brush_head1 {
+    margin-top: 175px;
+    font-size: 5rem;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .loyaltyimg {
+    margin-top: 35px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    width: 350px;
+    height: 220px;
+  }
+  #guestE {
+    height: 300px;
+	  background-color: #efe2d2;
+	}
+.innerimgmain {
+   width: 400px!important;
+	height: auto!important;
+    }
+  }
+@media (min-width: 1440px) {
+.navcontainer3 {
+  height: 450px;
+  	}
+  .brush_head {
+    font-size: 7rem;
+  }
+  .brush_head1 {
+    margin-top: 150px;
+    font-size: 6rem;
+  }
+  .navcontainer {
+    height: 400px;
+    /*  overflow: hidden;*/
+  }
+.innerimgmain {
+  	width: 400px;
+	height: auto;
+    }
+.carousel-caption {
+	padding: 0px;
+	margin: 0px;
+	top: 80%;
+	transform: translateY(-50%);
+}
+#careers_main {
+    background-image: url(../images/careers_main.png);
+  }
+	#restaurant_main {
+    background-image: url(../images/restaurant_main.png);
+  }
+#menu_main {
+    background-image: url(../images/menu_main.png);
+  }
+#restaurant_special_main {
+    background-image: url(../images/restaurant_special_main.png);
+  }
+#rcp_main {
+    background-image: url(../images/rcp_main.png);
+  }
+#giving_back_main {
+    background-image: url(../images/giving_back_main_mob.png);
+  }
+#chef_pillai_main {
+    background-image: url(../images/chef_pillai_main.png);
+  }
+#guest_experience_main {
+    background-image: url(../images/guest_experience_main.png);
+  }
+#loyalty_programs_main {
+    background-image: url(../images/loyalty_programs_main.png);
+  }
+#benefits_main {
+    background-image: url(../images/benefits_main.png);
+  }
+#events_main {
+    background-image: url(../images/events_main.png);
+  }
+#events_booking_main {
+    background-image: url(../images/events_booking_main.png);
+  }
+#contact_main {
+    background-image: url(../images/contact_main.png);
+  }
+#registered_user_main {
+    background-image: url(../images/registered_user_main.png);
+	}
+#register_main {
+    background-image: url(../images/register_main.png);
+	}
+#contactform_main {
+    background-image: url(../images/contact_form_main.png);
+	}
+#chef_discovery_main {
+    background-image: url(../images/chefpillai_discovery_main.jpg);
+	}
+#chef_media_main {
+    background-image: url(../images/social_media_main.png);
+	}
+  #guestE {
+    height: 450px;
+	  background-color: #efe2d2;
+   }
+	
+}
+
+
+
+
+
+

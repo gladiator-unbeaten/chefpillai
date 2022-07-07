@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" charset="utf-8">
+<title>Chef Pillai</title>
+<!-- Icons Links --> 
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> 
+<script src="https://kit.fontawesome.com/e6ed335c42.js" crossorigin="anonymous"></script>
+<!-- CSS Links -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<!-- Bootstrap and JQuery Links --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+<!-- Javascript --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<script type="text/javascript" src="scripts.js"></script> 
+<script type="text/javascript" src="scroll.js"></script>
+<!-- google fonts Links -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+<!--HP Fonts-->
+<link href="//db.onlinewebfonts.com/c/6cb78fb592f9a8244397b1bd220d6453?family=HP+Simplified" rel="stylesheet" type="text/css"/>
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 5000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+	
+  document.getElementById("myDiv").style.display = "block";
+}
+</script> 
+<script type="text/javascript" src="menu_scroll.js"></script>
+
+</head>
+<body onload="" style="margin:0;">
+<!--Loader Section-->
+
+<!--
+<div id="loader">
+  <div id="carouselLoader" class="carousel slide" data-ride="carousel" data-interval="1250" data-pause="false" style="padding-left: 50px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active"> <img src="Images/bowl1.png" alt=""/> </div>
+      <div class="carousel-item"> <img src="Images/bowl2.png"  alt=""/> </div>
+      <div class="carousel-item"> <img src="Images/bowl3.png"  alt=""/> </div>
+		<div class="carousel-item"> <img src="Images/bowl4.png"  alt=""/> </div>
+    </div>
+  </div>
+  <div id="loader-child">
+    <div class="scrolling-words-box">
+      <ul>
+        <li style="font-size: 20px">Namaskaram</li>
+        <li style="font-size: 20px">Koottukare</li>
+        <li style="font-size: 20px">Thank you</li>
+        <li style="font-size: 20px">So</li>
+        <li style="font-size: 20px">Much</li>
+      </ul>
+    </div>
+  </div>
+</div>
+-->
+<!--	Animate to index section-->
+<div id="myDiv" class="video-container">
+  <div id="redirect" class="video-container">
+    <video autoplay muted loop>
+      <source src="chefpillai.mp4" />
+    </video>
+    <div class="caption container-fluid">
+      <div class="navcontainer">
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark"> <a href="#"><img src="chefpillailogowhite.png" alt="Chef Pillai" class="logo" id="brandlogo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links" aria-controls="links" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="links"> 
+            <!-- <div id="nav"> -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown"><a class="header-textv" href="restaurant.html">Restaurant</a> <a class="header-textv" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+					<a class="dropdown-item header-text" href="menu.html" style="display: block">Menu</a> 
+					<a class="dropdown-item header-text" href="restaurantspecial.html" style="display: block">Restaurant Special</a> </div>
+              </li>
+              <li class="nav-item dropdown">
+				  <a class="header-textv" href="rcp.html">RCP</a> 
+				  <a class="header-textv" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1"> 
+					<a class="dropdown-item header-text" href="givingback.html" style="display: block">Giving Back</a> 
+					<a class="dropdown-item header-text" href="chefpillai.html" style="display: block">Chef Suresh Pillai</a> 
+					<a class="dropdown-item header-text" href="guestexperience.html" style="display: block">Guest Experience</a> 
+					<a class="dropdown-item header-text" href="careers.html" style="display: block">careers</a></div>
+              </li>
+				<li class="nav-item dropdown"><a class="header-textv" href="loyaltyprograms.html">Loyalty Programs</a> <a class="header-textv" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2"> 
+					<a class="dropdown-item header-text" href="benefits.html" style="display: block">Benefits</a> 
+					</div>
+              </li>
+				<li class="nav-item dropdown"><a class="header-textv" href="events.html">Events</a> <a class="header-textv" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3"> 
+					<a class="dropdown-item header-text" href="eventbooking.html" style="display: block">Event Booking</a> 
+					</div>
+              </li>
+				<li class="nav-item dropdown"><a class="header-textv" href="contact.html">Contact</a> <a class="header-textv" href="#" id="navbarDropdownMenuLink5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5"> 
+					<a class="dropdown-item header-text" href="contactform.html" style="display: block">Contact Form</a> 
+					</div>
+              </li>
+				<li class="nav-item dropdown">
+				  <a class="header-textv" href="login.html">Login</a> 
+				  <a class="header-textv" href="#" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span> </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4"> 
+					<a class="dropdown-item header-text" href="login.html" style="display: block">Registered User</a> 
+					<a class="dropdown-item header-text" href="register.html" style="display: block">Register</a> 
+					<a class="dropdown-item header-text" href="passwordreset.html" style="display: block">Reset Password</a> </div>
+              </li>
+              
+              <li class="nav-item"> <a class="header-textv" href="#"><i class="fab fa-instagram"></i></a> </li>
+              <li class="nav-item"> <a class="header-textv" href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="nav-item"> <a class="header-textv" href="#"><i class="fab fa-youtube"></i></a> </li>
+              </ul>
+            <!-- </div> --> 
+          </div>
+        </nav>
+      </div>
+      <p class="brush_head animate-bottom"><img src="resto_chef_pillai_white.png" alt="Restaurant Chef Pillai Logo" class="imgrze"></p>
+       </div>
+  </div>
+  <!-- writeup section -->
+  <section id="writeup">
+    <div class="container-fluid" style="background-color: #E6E1D4;">
+      <div class="row">
+        <div class="col-md">
+          <h1 class="innerheading1">Chef Suresh Pillai</h1>
+          <p class="innertext1"> Chef Suresh Pillai, today’s special ambassador of Kerala cuisine to the world and Super Master Chef to over 1.7 million of his social media followers, has not lost that simplicity of an Island boy from the banks of the Ashtamudi lake in Kollam, Kerala. From his humble beginnings in Kerala, he spent 27 years honing his culinary skills in multiple kitchens including the BBC Masterchef Professionals. His travels took him to islands such as England, Australia and the Caribbean Islands as a culinary mentor to University students. In spite of all his culinary experiences throughout the world, he retains the charming humility of an Island boy on a wooden canoe in the placidly beautiful Ashtamudi lake in Kerala. Today, Chef Suresh Pillai, the island boy sees the whole world as an island, and just as equally exciting. <a class="" href="chefpillai.html">more...</a></p>
+			
+			</div>
+        <div class="col-md rightimg d-block text-center">
+			<img class="img-fluid center-block img-fluid" style="border-radius: 10px; margin-top: 40px;" src="chefsuresh.jpg" alt="Chef Suresh Pillai">
+		  <p align="center"><div class="row justify-content-center" style="margin-top: 40px; text-align: center;">
+			<div class="col-3 achievments"><span><font color="#333333">1.6 M </font></span><br>PASSIONATE FOLLOWERS</div>
+			<div class="col-3 achievments"><font color="#333333">40 K </font><br>RETURNING GUESTS</div>
+				<div class="col-3 achievments"><font color="#333333">101 + </font><br>FLAVOURFUL DISHES</div>
+			</div>
+			</p>
+		  </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--		Restaurant Special section-->
+  <section id="restspecial">
+    <div class="container-fluid conflu reveal">
+      <div class="row no-gutters" style="background-color: transparent;">
+		  <div class="col-md" id="restoSpecial"> <image class="img-fluid resto_img w-100" src="restospecial_home.jpg" />
+			<h2 class="left-top innerheading1" style="padding: 10px 0px 20px 30px;">RESTAURANT SPECIAL</h2>
+			
+        </div>
+        <div class="col-md">
+		  	<p class="resto_text">Chef Suresh Pillai’s legendary fish nirvana recipe. Fish fried in spices and then poached in a banana leaf wrapped ginger coconut milk sauce. The spice marinated fish is first shallow fried and then poached in a coconut milk – ginger sauce. The fish is poached in a banana leaf so the flavour of the leaves and the aroma penetrates into the sauce. Coconut milk and ginger has a very unique flavour. <a class="" href="restaurantspecial.html">more...</a></p>
+			  </div>
+         </div>
+    </div>
+  </section>
+	
+	 <!--		Guest Experience Section-->
+	<div class="container-fluid reveal" style="background-color: #efe2d2;" id="guestEx">
+    <div class="row align-items-center no-gutters conflu">
+        <div class="col-auto">
+            <a href="#carouselGuest" role="button" data-slide="prev">
+                <span><img src="left.png" class="h3" alt="left indicator"></span>
+            </a>
+        </div>
+        <div class="col">
+            <div id="carouselGuest" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> This dinner was one to remember and cherish. Quick service, perfect staff, delectable food. Always a pleasure!<span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+<!--                                <button class="buttonsub">More...</button>-->
+                            </div>
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="guestexp_home.jpg" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> The food was delicious, a wonderful tour of local specialities with excellent presentation. Each course was well balanced, great textures and flavours. <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+<!--                                <button class="buttonsub">More...</button>-->
+                            </div>
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="guestexp_home2.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> I will be back to indulge in his amazing gastronomical delight again.<br> Congrats chef. <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+<!--                                <button class="buttonsub">More...</button>-->
+                            </div>
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="guestexp_home3.png" alt="Third slide">
+                            </div>
+                        </div>
+                    </div>
+					<div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> It is now our second time coming here. As with the first experience, this dinner was one to remember and cherish.  <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+<!--                                <button class="buttonsub">More...</button>-->
+                            </div>
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="guestexp_home4.png" alt="Fourth slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto">
+            <a href="#carouselGuest" role="button" data-slide="next">
+                <span><img src="right.png" class="h3" alt="left indicator"></span>
+            </a>
+        </div>
+    </div>
+</div>
+  <!--	Guest Experience Section ends--> 
+	  <!--	Chef's Discovery Section-->
+  <section id="discovery">
+	  <div class="container-fluid conflu reveal">
+      <div class="row no-gutters" style="background-color: #dec9ce;">
+        <div class="col-md-6" id="chefdiscovery"> <image style="margin-top: 70px; width: 50%" class="" src="world2.png" />
+			<h1 class="specialHead left-top">OUR RESTAURANTS</h1>
+			<p class="left-bottom" style="padding-left: 30px;">Bangalore, Kochi...</p>
+        </div>
+		  <div class="col-md-6">
+		  <img src="discovery_home.jpeg" alt="Chef's Discovery" class="img-fluid">
+		<div class="row w-100 chefdiscoveryhome text-right"><h2 class="section-heading" style="text-align: right;">Chef's Discovery</h2>
+          <p class="spacing section-text" style="color: #fff;">Every culture, every country, every city, every street, every corner on this earth has its own culinary stories to narrate. <a class="" href="chefdiscovery.html">more...</a></p></div>
+		  </div>
+          </div>
+    </div>
+  </section>
+	
+   <!--	Giving Back Section-->
+  <section>
+    <div class="container-fluid reveal conflu" id="givingback">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+			<img src="givingback_home.jpg" alt="Prison Visit" class="img-fluid w-100">
+		<div class="row w-100 givingbackhome text-left"><h2 class="section-heading" style="text-align: left; ">Giving Back</h2>
+          <p class="section-text spacing">Whether you realize it or not, giving back to the community is an important part of running a restaurant. <a class="" href="givingback.html">more...</a></p></div>
+		</div>
+        <div class="col-md-6"  id="socialMedia">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item" role="presentation" style="padding-left: 15px; padding-right: 5px;">
+				<a class="nav-link active" id="instagram-tab" data-toggle="tab" href="#instagram" role="tab" aria-controls="instagram" aria-selected="true">Instagram</a>
+			  </li>
+			  <li class="nav-item" role="presentation" style="padding-left: 0px; padding-right: 0px;">
+				<a class="nav-link" id="facebook-tab" data-toggle="tab" href="#facebook" role="tab" aria-controls="facebook" aria-selected="false">Facebook</a>
+			  </li>
+			  </ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="instagram" role="tabpanel" aria-labelledby="instagram-tab">Instagram Posts and Videos.</div>
+			  <div class="tab-pane fade" id="facebook" role="tabpanel" aria-labelledby="facebook-tab">Facebook Posts and Videos.</div>
+			  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--	Footer Section-->
+  <footer align="center" class="bottom">copyright2022&#169;chefpillai.com</footer>
+</div>
+</body>
+</html>
