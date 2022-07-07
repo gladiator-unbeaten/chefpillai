@@ -573,23 +573,27 @@ li {
   left: 0;
   min-height: 300px;
 }
-.bottom {
+footer {
   background-color: #36454F;
   color: #B2BEB5;
   font-family: 'Didact Gothic';
-		bottom: 0;
+	bottom: 0;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 100%;
 }
 .h3 {
   display: none;
 }
 .carouseltext {
-  color: #000;
-  padding-left: 20px;
-	padding-right: 20px;
-	text-align: center;
+	color: #000;
 	font-size: 1.2em;
-	padding-top: 20px;
 	font-family: 'Didact Gothic', sans-serif;
+	text-align: justify;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: -40px;
 }
 .reveal {
   position: relative;
@@ -674,8 +678,7 @@ li {
 	padding-top: 0px;
 	padding-left: 30px;
 	padding-right: 30px;
-	background-color: #dec9ce;
-}
+	}
 
 #chefdiscovery {
 	position: relative;
@@ -820,9 +823,7 @@ width: 100%;
 .carouselGuest img{
 	height: auto !important;
 }
-.carouselGuest1 {
-	background-color: #efe2d2;
-}
+
 
 .py-2 {
 	background-color: #efe2d2;
@@ -833,7 +834,7 @@ width: 100%;
 	margin-bottom: 10px;
 	}
 .chefdiscoveryhome {
-	background-color: rgba(51, 51, 51, 0.4);
+	background-color: rgb(222, 201, 206, 0.4);
 	z-index: 1; 
 	position: absolute;
 	bottom: 0; 
@@ -882,6 +883,7 @@ width: 100%;
 .col-auto {
 	padding: 0px;
 	margin: 0px;
+	margin-top: 60px;
 }
 
 .align-items-center {
@@ -961,8 +963,6 @@ width: 100%;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
-
-
 
 
 /*Media queries for background changes styles*/
@@ -1358,3 +1358,7 @@ transform: translateY(-50%);
 
 
 
+
+.justify-content-center {
+	margin-top:25%;
+}
