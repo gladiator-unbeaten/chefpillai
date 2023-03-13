@@ -167,16 +167,9 @@ function showPage() {
          </div>
     </div>
   </section>
-<!--	Restaurant Map and Quotes Section-->
-	<section id="mapQuote">
-	  <div class="container-fluid conflu reveal">
-      <div class="row no-gutters" style="background-color: #dec9ce;">
-        <div class="col-md-6" id=""> <image style="margin-top: 45px;" class="img-fluid w-100" src="images/world2.png" />
-			<h1 class="specialHead left-top">OUR RESTAURANTS</h1>
-			<p class="left-bottom" style="padding-left: 30px;">Bangalore, Kochi...</p>
-        </div>
-<div class="col-md-6" style="background-color: #efe2d2; min-height: 250px;">
-<div class="container-fluid reveal" style="background-color: #efe2d2;" id="guestEx">
+	
+	 <!--		Guest Experience Section-->
+	<div class="container-fluid reveal" style="background-color: #efe2d2;" id="guestEx">
     <div class="row align-items-center no-gutters conflu">
         <div class="col-auto">
             <a href="#carouselGuest" role="button" data-slide="prev">
@@ -184,42 +177,50 @@ function showPage() {
             </a>
         </div>
         <div class="col">
-			<div id="carouselGuest" class="carousel slide" data-ride="carousel" data-interval="7000">
+            <div id="carouselGuest" class="carousel slide" data-ride="carousel" data-interval="7000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row">
-                            <div class="row justify-content-center">
-								<p class="carouseltext animate-bottom"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> This dinner was one to remember and cherish. Quick service, perfect staff, delectable food. Always a pleasure!<span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> This dinner was one to remember and cherish. Quick service, perfect staff, delectable food. Always a pleasure!<span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
 <!--                                <button class="buttonsub">More...</button>-->
                             </div>
-                            
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="Images/guestexp_home.jpg" alt="First slide">
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
-                            <div class="row justify-content-center">
-								<p class="carouseltext animate-bottom"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> The food was delicious, a wonderful tour of local specialities with excellent presentation. Each course was well balanced, great textures and flavours.<span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> The food was delicious, a wonderful tour of local specialities with excellent presentation. Each course was well balanced, great textures and flavours. <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
 <!--                                <button class="buttonsub">More...</button>-->
                             </div>
-                            
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="Images/guestexp_home2.jpg" alt="Second slide">
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
-                            <div class="row justify-content-center">
-								<p class="carouseltext animate-bottom"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> I will be back to indulge in his amazing gastronomical delight again. <br><span style="float: right;">Congrats chef. <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></span></p>
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> I will be back to indulge in his amazing gastronomical delight again.<br> Congrats chef. <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
 <!--                                <button class="buttonsub">More...</button>-->
                             </div>
-                            
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="Images/guestexp_home3.png" alt="Third slide">
+                            </div>
                         </div>
                     </div>
 					<div class="carousel-item">
-                        <div class="row">
-                            <div class="row justify-content-center">
-								<p class="carouseltext animate-bottom"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> It is now our second time coming here. As with the first experience, this dinner was one to remember and cherish.  <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
+                        <div class="row align-items-center">
+                            <div class="col-md carouselGuest1 conflu">
+								<p class="carouseltext"><span><sup><i class="fa-solid fa-quote-left fa-3x"></i></sup></span> It is now our second time coming here. As with the first experience, this dinner was one to remember and cherish.  <span><sup><i class="fa-solid fa-quote-right fa-3x"></i></sup></span></p>
 <!--                                <button class="buttonsub">More...</button>-->
                             </div>
-                            
+                            <div class="col-md justify-content-between">
+                                <img class="d-block w-100 img-fluid" src="Images/guestexp_home4.png" alt="Fourth slide">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -227,36 +228,57 @@ function showPage() {
         </div>
         <div class="col-auto">
             <a href="#carouselGuest" role="button" data-slide="next">
-                <span><img src="images/right.png" class="h3" alt="right indicator" style="position: relative;"></span>
+                <span><img src="images/right.png" class="h3" alt="left indicator"></span>
             </a>
         </div>
     </div>
 </div>
-		  </div>
-          </div>
-    </div>
-  </section>
-	
-	<!--	Giving Back and Chef's Discovery Section-->
+  <!--	Guest Experience Section ends--> 
+	  <!--	Chef's Discovery Section-->
   <section id="discovery">
 	  <div class="container-fluid conflu reveal">
       <div class="row no-gutters" style="background-color: #dec9ce;">
-        <div class="col-md-6">
-			<img src="Images/givingback_home.jpg" alt="Prison Visit" class="img-fluid w-100">
-		<div class="row w-100 givingbackhome text-left"><h2 class="section-heading" style="text-align: left; ">Giving Back</h2>
-          <p class="section-text spacing">Whether you realize it or not, giving back to the community is an important part of running a restaurant. <a class="" href="givingback.html">more...</a></p></div>
-		</div>
+        <div class="col-md-6" id="chefdiscovery"> <image style="margin-top: 70px; width: 50%" class="" src="images/world2.png" />
+			<h1 class="specialHead left-top">OUR RESTAURANTS</h1>
+			<p class="left-bottom" style="padding-left: 30px;">Bangalore, Kochi...</p>
+        </div>
 		  <div class="col-md-6">
-		  <img src="Images/discovery_home.jpeg" alt="Chef's Discovery" class="img-fluid w-100">
-		<div class="row w-100 chefdiscoveryhome text-right"><h2 class="section-heading" style="text-align: right; color: black;">Chef's Discovery</h2>
+		  <img src="Images/discovery_home.jpeg" alt="Chef's Discovery" class="img-fluid">
+		<div class="row w-100 chefdiscoveryhome text-right"><h2 class="section-heading" style="text-align: right;">Chef's Discovery</h2>
           <p class="spacing section-text" style="color: #fff;">Every culture, every country, every city, every street, every corner on this earth has its own culinary stories to narrate. <a class="" href="chefdiscovery.html">more...</a></p></div>
 		  </div>
           </div>
     </div>
   </section>
 	
-   <!--	Footer Section-->
-  <footer>copyright2022&#169;chefpillai.com</footer>
+   <!--	Giving Back Section-->
+  <section>
+    <div class="container-fluid reveal conflu" id="givingback">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+			<img src="Images/givingback_home.jpg" alt="Prison Visit" class="img-fluid w-100">
+		<div class="row w-100 givingbackhome text-left"><h2 class="section-heading" style="text-align: left; ">Giving Back</h2>
+          <p class="section-text spacing">Whether you realize it or not, giving back to the community is an important part of running a restaurant. <a class="" href="givingback.html">more...</a></p></div>
+		</div>
+        <div class="col-md-6"  id="socialMedia">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item" role="presentation" style="padding-left: 15px; padding-right: 5px;">
+				<a class="nav-link active" id="instagram-tab" data-toggle="tab" href="#instagram" role="tab" aria-controls="instagram" aria-selected="true">Instagram</a>
+			  </li>
+			  <li class="nav-item" role="presentation" style="padding-left: 0px; padding-right: 0px;">
+				<a class="nav-link" id="facebook-tab" data-toggle="tab" href="#facebook" role="tab" aria-controls="facebook" aria-selected="false">Facebook</a>
+			  </li>
+			  </ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="instagram" role="tabpanel" aria-labelledby="instagram-tab">Instagram Posts and Videos.</div>
+			  <div class="tab-pane fade" id="facebook" role="tabpanel" aria-labelledby="facebook-tab">Facebook Posts and Videos.</div>
+			  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--	Footer Section-->
+  <footer align="center" class="bottom">copyright2022&#169;chefpillai.com</footer>
 </div>
 </body>
 </html>
